@@ -1,0 +1,33 @@
+TRAJ_DIR: "data/trajectories/"
+outputDir: output
+
+task:
+  ftNodeStrList: "4808_4806,4835_4806,4697_4806,4927_4806"
+  fTime: 2020-09-09T00:00:00
+  tTime: 2020-09-10T00:00:00
+  needFCD: false
+  fcdSamplingSec: 10
+
+
+loop:
+  - loopId: lp_1
+    ftNode: "4808_4806"
+    position: 6.0
+    missingRate: 0.0
+    interval: 30
+  - loopId: lp_2
+    ftNode: "4835_4806"
+    position: 6.0
+    missingRate: 0.0
+    interval: 30
+  - loopId: lp_3
+    ftNode: "4697_4806"
+    position: 6.0
+    missingRate: 0.0
+    interval: 30
+  - loopId: lp_4
+    ftNode: "4927_4806"
+    position: 6.0
+    missingRate: 0.0
+    interval: 30
+
